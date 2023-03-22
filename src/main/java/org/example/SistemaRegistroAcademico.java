@@ -6,6 +6,7 @@ public class SistemaRegistroAcademico {
 
   //registrarAlumno();
   //QUEREMOS DESARROLLAR UN METODO QUE NOS PERMITA REGISTRAR UN ALUMNO.
+
   public Alumno registrarAlumno(String nombre, String direccion, int edad, boolean esEstudianteActivo, String grupo, ArrayList<Curso> clasesATomar)
       throws BusinessException {
     if(validarString(nombre)){

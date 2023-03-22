@@ -28,7 +28,7 @@ public class Alumno extends Persona {
     this.grupo = grupo;
   }
 
-  //METODOS
+  //METODOS  GETTER=OBTENER SETTER=MODIFICAR
   public String obtenerGrupo(){
     return grupo;
   }
@@ -40,11 +40,14 @@ public class Alumno extends Persona {
   public void modificarDireccion(String nuevaDireccion){
     super.direccion = nuevaDireccion;
   }
+
+  @Override
+  public int calcularSalario() {
+    //LOS ALUMNOS NO TIENEN UN SALARIO ??????????????  ------> ?
+    return 0;
+  }
 /*
   public boolean esMayorEdad(){
     return super.mayorDeEdad;
   }*/
-
-
-
 }

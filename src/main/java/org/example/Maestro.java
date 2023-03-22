@@ -19,5 +19,11 @@ public class Maestro extends Persona {
     return NUMERO_MAXIMO_DE_CURSOS;
   }
 
+  @Override
+  public int calcularSalario() {
+    //MAESTRO RECIBE SALARIO MENSAUL CON UN CONTRATO DE PRESTACIONES DE SERVICIOS Y AQUI VAMOS A PONER TODA ESA LOGICA PARA CALCULAR SU SALARIO.
+    return 0;
+  }
+
   //crear metodos en esta clase maestro para obtener algunas propeidades y tambien modificarlas.
 }
