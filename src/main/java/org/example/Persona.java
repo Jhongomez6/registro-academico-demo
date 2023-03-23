@@ -10,7 +10,9 @@ public abstract class Persona {
   protected String nombre;
   protected String direccion;
 
-  public abstract int calcularSalario();
+  //SOLAMENTE SE USA OVERRIDE CUANDO EN UNA CLASE PADRE TENGO UN METODO ABSTRACTO Y JAVA ME OBLIGA A SOBREESCRIBIR(OVERRIDE) ESE METODO EN LAS CLASES HIJAS.
+  //public abstract int calcularSalario();
+
 
   //NECESITO UN METODO QUE VERIFIQUE SI UNA PERSONA ES MAYOR DE EDAD O NO
   //el metodo debe retonar un boolean true si la persona mayor de edad y false si no lo es.

@@ -29,4 +29,24 @@ public class SistemaRegistroAcademico {
   private boolean validarString(String cadena){
     return cadena == null || cadena.isBlank();
   }
+
+  //COMO CALCULAMOS EL SALARIO CON BUENAS PRACTICAS DE SOFTWARE.
+
+
+  //ABIERTO A MODIFICACIONES  -----<> OPEN:CLOSE DICE QUE DEBE SER CERRADO A MODIFICACIONES.
+  //ABIERTO A EXTENSION.
+  //INTERFACES VS CLASES ABSTRACTAS.
+  //
+
+  public int calcularSalario(String tipoDePersona){
+    int salario = 0;
+    if(tipoDePersona.equals("MAESTRO")){
+      //CALCULAMOS SALARIO PARA EL MAESTRO
+    } else if(tipoDePersona.equals("COLABORADOR")){
+      //CALCULAMOS AQUI EL SALARIO PARA EL COLABORADOR
+    } else if(tipoDePersona.equals("TERCEROS")){
+      //CALCULAMOS AQUI EL SALARIO PARA LOS TERCEROS.
+    }
+    return salario;
+  }
 }

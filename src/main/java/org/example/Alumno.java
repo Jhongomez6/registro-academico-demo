@@ -41,11 +41,6 @@ public class Alumno extends Persona {
     super.direccion = nuevaDireccion;
   }
 
-  @Override
-  public int calcularSalario() {
-    //LOS ALUMNOS NO TIENEN UN SALARIO ??????????????  ------> ?
-    return 0;
-  }
 /*
   public boolean esMayorEdad(){
     return super.mayorDeEdad;

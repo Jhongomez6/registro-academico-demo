@@ -1,10 +1,10 @@
 package org.example;
 
-public class Colaborador extends Persona {
+public class Colaborador extends Persona implements PersonaConSalario {
 
   @Override
   public int calcularSalario() {
-    //recibe un salario quincenal y es un salario nominal con todas las prestaciones de ley colombianas.
+    //IMPLEMENTAOS TODA LA LOGICA DE CALCULAR UN SALARIO PARA UN MAESTRO
     return 0;
   }
 }

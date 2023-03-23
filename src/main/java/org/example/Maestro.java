@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.Persona;
 
-public class Maestro extends Persona {
+public class Maestro extends Persona implements PersonaConSalario {
   //PROGRAMACION ORIENTADO OBEJTOS -> HERENCIA
 
   private static final int NUMERO_MAXIMO_DE_CURSOS = 3;
@@ -21,7 +21,7 @@ public class Maestro extends Persona {
 
   @Override
   public int calcularSalario() {
-    //MAESTRO RECIBE SALARIO MENSAUL CON UN CONTRATO DE PRESTACIONES DE SERVICIOS Y AQUI VAMOS A PONER TODA ESA LOGICA PARA CALCULAR SU SALARIO.
+    //IMPLEMENTAOS TODA LA LOGICA DE CALCULAR UN SALARIO PARA UN MAESTRO
     return 0;
   }
 
